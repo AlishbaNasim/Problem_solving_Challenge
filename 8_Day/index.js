@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const main_1 = require("./main");
+const area_result = (0, main_1.calculateArea)(5, 10);
+console.log(`Area:${area_result}`);
+const perimeter_result = (0, main_1.calculatePerimeter)(5, 10);
+console.log(`Perimeter:${perimeter_result}`);
+const _2nd_1 = require("./2nd");
+const result = new _2nd_1.Circle(12, "Circle", 4.5);
+console.log(result);
